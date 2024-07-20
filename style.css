@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(24, 26, 27);
+}
+
+
+.view {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-background {
+    background-image: url(image/gradient-background-backdrop-multicolor-colorful-vibrant-3840x2160-6723.png);
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    width: 80%;
+    padding-top: 250px;
+    flex-wrap: wrap;
+}
+.hero-text {
+    margin-top: 40px;
+    margin-bottom: 150px;
+    width: 500px;
+    align-items: center;
+}
+.hero-img {
+    width: 500px;
+}
+.hero h1{
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 7px 0px;
+    width: 110px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero h2 {
+    font-size: 40px;
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+}
+.hero p {
+    padding: 5px;
+    color: white;
+}
+.hero-icon {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.hero-icon img {
+    height: 20px;
+    color: white;
+    padding: 5px;
+}
+.hero-icon p {
+    color: white ;
+    padding-bottom: 7px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.hero-button{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+.hero-button a {
+    color: white ;
+    text-align: center;
+    border-radius: 7px 0px;
+    border: solid white 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 30px 9px 30px;
+
+}
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 50px;
+
+}
+.section h1{
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+.section h2 {
+    color: blueviolet;
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+} 
+.items{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.item{
+
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 5px black solid;
+    border-radius: 15px;
+    justify-content: center;
+}
+.item img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+}
+.item h3{
+    color: blueviolet;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.item p{
+    color: 	white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 150px;
+}
+.item a{
+    color: blueviolet ;
+    text-align: center;
+    border-radius: 7px 0px;
+    border: solid blueviolet 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px 9px 20px;
+
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100px;
+}
+
+.wrapper-form{
+    display: flex;
+    margin-top: 50px;
+    gap: 25px;
+    justify-content: center;
+
+}
+.wrapper-form p{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+}
+.wrapper-form .form {
+    width: 50%;
+}
+.wrapper-form .first-name, .last-name, .email, .email-content{
+    height: 30px;
+    border: 2px solid blueviolet;
+    background-color: rgb(24, 26, 27);
+    margin: 5px 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+}
+.form-name {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-name, .last-name {
+    width: 94%;
+}
+.email {
+    width: 94%;
+}
+.form .email-content {
+    resize: none;
+    height: 150px;
+    width: 94%;
+}
+textarea {
+    color: white;
+}
+.send {
+    color: blueviolet ;
+    text-align: center;
+    border-radius: 7px 0px;
+    border: solid blueviolet 3px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px 9px 20px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 100px;
+    width: 94%;
+    margin: 5px 10px;
+    background-color: rgb(24, 26, 27);
+    text-decoration: underline;
+}
+
